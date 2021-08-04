@@ -1,0 +1,120 @@
+Link to finish codepen: https://codepen.io/Shvnl2010/pen/MWmBxer?editors=1100
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        It's used to build the structure of our website.
+    2. What is HTML used for? 
+        To structure a web page and its content.
+    3. What is an attribute and where do we put it? 
+        It is a property of an element and its specified in the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        It can be used only once and its used for the title of the page.
+    5. Name two tags that have required attributes
+        An img element has two required attributes.
+    6. What do we put in the head of our HTML document? 
+        meta data and links to CSS
+    7. What is an id? 
+        its an identifier which is unique in the whole document.
+    8. What elements can I add an id to? 
+        It can be added in HTML tag.
+    9. How many times can I use the same id on a page? 
+        Once
+    10. What is a class? 
+            Its an attribute which is used to specify for an HTML element.
+    11. What elements can I add a class to? 
+            Multiple HTML element can share the same class.
+    12. How many times can I use the same class on a page?
+            No limit.
+    13. How do I get my link to open in a new tab?
+            On an anchor tags just add a target="_blank".
+    14. What is the alt attribute in the image tag used for? 
+            Its to specify the alternate text for an image.
+    15. How do I reference an id?
+            Write a hash character followed by a nickname.
+    16. What is the difference between a section and a div
+            Section means the content is inside a group while a div does not convey anything.
+    17. What is CSS used for? 
+            It is used for styling a web page.
+    18. How to we select an element? Example - every h2 on the page
+            h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+            a class selector is a name preceded by a full stop (“.”) and 
+            an ID selector is a name preceded by a hash character (“#”)
+    20. How do we select classes in CSS?
+            write a period (.) character, followed by the name of the class.
+    21. How do we select a p element with a single class of “human””?
+
+    22. What is a parent child selector? When would this be useful? 
+            All elements that are a direct child of the specified element
+    23. How do you select all links within a div with the class of sidebar?
+
+    24. What is a pseudo selector?
+            A selector that selects elements that are in a specific state.
+    25. What do we use the change the spacing between lines?
+            Modifying the line spacing in CSS.
+    26. What do we use to change the spacing between letters?
+            CSS letter-spacing property.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+            text-transform CSS property specifies how to capitalize an element's text.
+    28. How do I add a 1px border around my div that is dotted and black?
+            border: 1px dotted black;
+    29. How do I select everything on the page? 
+            * {}
+    30. How do I write a comment in CSS?
+            /**/
+    31. How do I find out what file I am in, when I am using the command line? 
+            cd command
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+            ls -a command
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+            rmdir command to remove the directory.
+    34. Why should I use version control? 
+            it helps the teams solve these kinds of problems.
+    35. How often should I commit to github?
+            every 20 minutes
+    36. What is the command we would use to push our repo up to github? 
+            git push -u origin branch-name
+    37. Walk me through Lambda's git flow. 
+            1. fork your own version of repo
+            2. your name should be in front of the repo name
+            3. clone your repo by clicking on the clone button and copy the https link
+            4. open git bash and us cd to command to your desired folder
+            5. use git clone and paste the <link-to-repo> command to clone to your directory
+            6. change directory(cd) to the newly created repo using cd <repo-name> on command
+            7. use git checkout -b 'firstname-lastname' command to create your own branch for the repo
+            8. now work on your repo by entering code . on command to open vscode and add information and save.
+            9a. input git add . on command will add the repo changes and make them ready to be committed.
+            9b. input git commit -m 'explain the changes you made within the file'
+            10. input git push -u origin branch-name(your firstname-lastname) onto the command
+            11. there will be some changes on the forked repo where you can submit a pull request(PR).
+            12a. click on branch master and create a dropdown where you will select your name-branch
+            12b. click on your name-branch then click the New pull request button to make a new pull request on your name branch.
+            12c. after clicking the new pull request it should redirect you to the PR page
+            12d. when the PR page is displayed make sure to change the base repository to be your forked repo instead of the original lambda repo
+            13. After changing the base repository it should display your name along with forward slash and name of repo
+            14. click create Pull Request button
+        
+                  
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+            Block elements are a kind of blocks where there are many elements in a line itself. 
+            While inline elements take up the space of an entire line and there will be only one line within the space width.
+  
+    2. What happens when an element is positioned absolutely? 
+            it sits on its own layer separate from everything else.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+            By setting the width to 100% it takes the whole width available of its parent.
+
+    4. Name 3 elements that are display block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+            display block: address, article, aside
+            display inline: <br>, <a>, <img>
+            display inline-block: button
+
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+        its like a box wrapped around every html element. the fix is called box sizing: border-box which includes padding and borders in an element's width.
